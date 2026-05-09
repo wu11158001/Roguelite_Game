@@ -1,7 +1,6 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="CharacterData" preserve="all" />
-    <type fullname="GameStateData" preserve="all" />
     <type fullname="GameView" preserve="all" />
     <type fullname="LobbyView" preserve="all" />
     <type fullname="ViewConfigData" preserve="all" />
@@ -64,9 +63,6 @@
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
-  </assembly>
-  <assembly fullname="UniRx">
-    <type fullname="UniRx.ReactiveProperty`1" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">
     <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
