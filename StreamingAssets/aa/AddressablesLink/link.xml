@@ -8,12 +8,25 @@
     <type fullname="SelectSkillItemView" preserve="all" />
     <type fullname="SelectSkillView" preserve="all" />
     <type fullname="SkillItemConfig" preserve="all" />
+    <type fullname="SkillItemView" preserve="all" />
     <type fullname="ViewConfigData" preserve="all" />
     <type fullname="SelectCharcterEntry" preserve="nothing" serialized="true" />
     <type fullname="ExpEntry" preserve="nothing" serialized="true" />
-    <type fullname="SkillItemEntry" preserve="nothing" serialized="true" />
+    <type fullname="SkillItemData" preserve="nothing" serialized="true" />
     <type fullname="UpgradeExpNeedEntry" preserve="nothing" serialized="true" />
     <type fullname="ViewConfigData/ViewMapping" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="MPUIKit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="MPUIKIT.MPImage" preserve="all" />
+    <type fullname="MPUIKIT.ChamferBox" preserve="nothing" serialized="true" />
+    <type fullname="MPUIKIT.Circle" preserve="nothing" serialized="true" />
+    <type fullname="MPUIKIT.GradientEffect" preserve="nothing" serialized="true" />
+    <type fullname="MPUIKIT.Hexagon" preserve="nothing" serialized="true" />
+    <type fullname="MPUIKIT.NStarPolygon" preserve="nothing" serialized="true" />
+    <type fullname="MPUIKIT.Parallelogram" preserve="nothing" serialized="true" />
+    <type fullname="MPUIKIT.Pentagon" preserve="nothing" serialized="true" />
+    <type fullname="MPUIKIT.Rectangle" preserve="nothing" serialized="true" />
+    <type fullname="MPUIKIT.Triangle" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
@@ -65,6 +78,7 @@
   </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.UI.Button" preserve="all" />
+    <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
     <type fullname="UnityEngine.UI.Slider" preserve="all" />
@@ -83,6 +97,9 @@
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.CanvasGroup" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UniRx">
+    <type fullname="UniRx.ReactiveProperty`1" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">
     <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
