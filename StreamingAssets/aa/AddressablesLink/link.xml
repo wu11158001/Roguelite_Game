@@ -2,11 +2,13 @@
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="BackgroundMaskView" preserve="all" />
     <type fullname="CharacterConfigData" preserve="all" />
+    <type fullname="EnemyConfigData" preserve="all" />
     <type fullname="GameConfigData" preserve="all" />
     <type fullname="GameView" preserve="all" />
     <type fullname="LobbyView" preserve="all" />
     <type fullname="SelectSkillItemView" preserve="all" />
     <type fullname="SelectSkillView" preserve="all" />
+    <type fullname="Skill_TrackingView" preserve="all" />
     <type fullname="SkillItemConfig" preserve="all" />
     <type fullname="SkillItemView" preserve="all" />
     <type fullname="ViewConfigData" preserve="all" />
@@ -75,6 +77,8 @@
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.BoxCollider" preserve="all" />
     <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
+    <type fullname="UnityEngine.Rigidbody" preserve="all" />
+    <type fullname="UnityEngine.SphereCollider" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.UI.Button" preserve="all" />
