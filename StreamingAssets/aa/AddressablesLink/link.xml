@@ -1,5 +1,6 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AllSkillConfigData" preserve="all" />
     <type fullname="BackgroundMaskView" preserve="all" />
     <type fullname="CharacterConfigData" preserve="all" />
     <type fullname="EnemyConfigData" preserve="all" />
@@ -8,13 +9,14 @@
     <type fullname="LobbyView" preserve="all" />
     <type fullname="SelectSkillItemView" preserve="all" />
     <type fullname="SelectSkillView" preserve="all" />
+    <type fullname="Skill_StraightProjectileView" preserve="all" />
     <type fullname="Skill_TrackingView" preserve="all" />
     <type fullname="SkillItemConfig" preserve="all" />
     <type fullname="SkillItemView" preserve="all" />
     <type fullname="ViewConfigData" preserve="all" />
+    <type fullname="SkillItemData" preserve="nothing" serialized="true" />
     <type fullname="SelectCharcterEntry" preserve="nothing" serialized="true" />
     <type fullname="ExpEntry" preserve="nothing" serialized="true" />
-    <type fullname="SkillItemData" preserve="nothing" serialized="true" />
     <type fullname="UpgradeExpNeedEntry" preserve="nothing" serialized="true" />
     <type fullname="ViewConfigData/ViewMapping" preserve="nothing" serialized="true" />
   </assembly>
@@ -32,8 +34,8 @@
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceGameObject" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.InputSystem, Version=1.19.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="all" />
