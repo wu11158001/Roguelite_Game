@@ -9,6 +9,7 @@
     <type fullname="LobbyView" preserve="all" />
     <type fullname="SelectSkillItemView" preserve="all" />
     <type fullname="SelectSkillView" preserve="all" />
+    <type fullname="Skill_AuraView" preserve="all" />
     <type fullname="Skill_StraightProjectileView" preserve="all" />
     <type fullname="Skill_TrackingView" preserve="all" />
     <type fullname="SkillItemConfig" preserve="all" />
@@ -75,6 +76,10 @@
     <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.BoxCollider" preserve="all" />
