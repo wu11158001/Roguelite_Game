@@ -6,16 +6,21 @@
     <type fullname="AllEffectPrefabData" preserve="all" />
     <type fullname="AllSkillConfigData" preserve="all" />
     <type fullname="AnchorPoint" preserve="all" />
+    <type fullname="AskPopupView" preserve="all" />
     <type fullname="BackgroundMaskView" preserve="all" />
     <type fullname="CameraConfigData" preserve="all" />
     <type fullname="CharacterConfigData" preserve="all" />
     <type fullname="EnemyConfigData" preserve="all" />
     <type fullname="GameConfigData" preserve="all" />
+    <type fullname="GamePauseView" preserve="all" />
     <type fullname="GameView" preserve="all" />
     <type fullname="HpBarView" preserve="all" />
     <type fullname="HpRecoverEffectView" preserve="all" />
     <type fullname="JoystickView" preserve="all" />
     <type fullname="LobbyView" preserve="all" />
+    <type fullname="MakeupItemSampleView" preserve="all" />
+    <type fullname="MakeupItemView" preserve="all" />
+    <type fullname="MakeupListView" preserve="all" />
     <type fullname="SelectCharacterTogView" preserve="all" />
     <type fullname="SelectCharacterView" preserve="all" />
     <type fullname="SelectSkillItemView" preserve="all" />
@@ -24,6 +29,7 @@
     <type fullname="Skill_AroundView" preserve="all" />
     <type fullname="Skill_AuraView" preserve="all" />
     <type fullname="Skill_RangeSlowView" preserve="all" />
+    <type fullname="Skill_SingleHitView" preserve="all" />
     <type fullname="Skill_StraightProjectileView" preserve="all" />
     <type fullname="Skill_TrackingView" preserve="all" />
     <type fullname="SkillItemConfig" preserve="all" />
@@ -31,6 +37,8 @@
     <type fullname="SlowDownEffectView" preserve="all" />
     <type fullname="UIRotate3DModel" preserve="all" />
     <type fullname="ViewConfigData" preserve="all" />
+    <type fullname="NeedActiveSkillData" preserve="nothing" serialized="true" />
+    <type fullname="NeedPassiveSkillData" preserve="nothing" serialized="true" />
     <type fullname="SkillItemData" preserve="nothing" serialized="true" />
     <type fullname="AbilityConfigData" preserve="nothing" serialized="true" />
     <type fullname="EffectData" preserve="nothing" serialized="true" />
@@ -64,6 +72,7 @@
   </assembly>
   <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.TemporalAA/Settings" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
@@ -92,6 +101,7 @@
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Camera" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Light" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
     <type fullname="UnityEngine.Mesh" preserve="all" />
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
@@ -107,6 +117,7 @@
     <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RenderingLayerMask" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.ParticleSystem" preserve="all" />
@@ -126,6 +137,7 @@
     <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
     <type fullname="UnityEngine.UI.Mask" preserve="all" />
     <type fullname="UnityEngine.UI.RawImage" preserve="all" />
     <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
