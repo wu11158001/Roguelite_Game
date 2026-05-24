@@ -24,6 +24,7 @@
     <type fullname="MakeupItemSampleView" preserve="all" />
     <type fullname="MakeupItemView" preserve="all" />
     <type fullname="MakeupListView" preserve="all" />
+    <type fullname="ScrollViewToTarget" preserve="all" />
     <type fullname="SelectCharacterTogView" preserve="all" />
     <type fullname="SelectCharacterView" preserve="all" />
     <type fullname="SelectSkillItemView" preserve="all" />
@@ -31,6 +32,7 @@
     <type fullname="Skill_Around_AttackObjView" preserve="all" />
     <type fullname="Skill_AroundView" preserve="all" />
     <type fullname="Skill_AuraView" preserve="all" />
+    <type fullname="Skill_FrontHitView" preserve="all" />
     <type fullname="Skill_RangeSlowView" preserve="all" />
     <type fullname="Skill_SingleHitView" preserve="all" />
     <type fullname="Skill_StraightProjectileView" preserve="all" />
