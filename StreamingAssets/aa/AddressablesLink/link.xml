@@ -1,6 +1,9 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="AbilityItemView" preserve="all" />
+    <type fullname="AbilityUpgradeConfigData" preserve="all" />
+    <type fullname="AbilityUpgradeItemView" preserve="all" />
+    <type fullname="AbilityUpgradeView" preserve="all" />
     <type fullname="AbilityView" preserve="all" />
     <type fullname="AllCharacterConfigData" preserve="all" />
     <type fullname="AllEffectPrefabData" preserve="all" />
@@ -41,6 +44,7 @@
     <type fullname="NeedPassiveSkillData" preserve="nothing" serialized="true" />
     <type fullname="SkillItemData" preserve="nothing" serialized="true" />
     <type fullname="AbilityConfigData" preserve="nothing" serialized="true" />
+    <type fullname="AbilityUpgradeItemData" preserve="nothing" serialized="true" />
     <type fullname="EffectData" preserve="nothing" serialized="true" />
     <type fullname="ExpEntry" preserve="nothing" serialized="true" />
     <type fullname="UpgradeExpNeedEntry" preserve="nothing" serialized="true" />
