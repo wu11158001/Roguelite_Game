@@ -28,22 +28,21 @@
       #unity-container {
         position: fixed;
         width: 100vw;
-        height: 100vh;
+        height: 56.25vw; /* 100 * 9 / 16 */
+        max-height: 100vh;
+        max-width: 177.78vh; /* 100 * 16 / 9 */
         display: flex;
         justify-content: center;
         align-items: center;
-        left: 0;
-        top: 0;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%); /* 畫布居中 */
       }
 
       /* 核心修正：加強權重，並確保寬高不會同時被硬塞 100% */
       #unity-canvas {
           width: 100% !important;
-          height: auto !important; /* 讓高度由 aspect-ratio 自動計算，不可設為 100% */
-          max-width: 100vw !important;
-          max-height: 100vh !important;
-          aspect-ratio: 16 / 9 !important; 
-          object-fit: contain !important; /* 確保內容在容器內保持比例 */
+          height: 100% !important; /* 讓它完美填滿上面的 16:9 容器 */
           background: #000;
       }
 
@@ -129,8 +128,8 @@
       } else {
         // 核心修正：移除會破壞 aspect-ratio 的 style.height = "100%"
         // 清空內聯樣式，改由上面 CSS 的 !important 規則全權接管
-        canvas.style.width = "";
-        canvas.style.height = "";
+        //canvas.style.width = "";
+        //canvas.style.height = "";
       }
 
       document.querySelector("#unity-loading-bar").style.display = "block";
