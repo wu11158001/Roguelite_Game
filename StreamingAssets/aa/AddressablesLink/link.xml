@@ -19,6 +19,7 @@
     <type fullname="CharacterConfigData" preserve="all" />
     <type fullname="EffectRecycle" preserve="all" />
     <type fullname="EnemyConfigData" preserve="all" />
+    <type fullname="ExpBall" preserve="all" />
     <type fullname="GameConfigData" preserve="all" />
     <type fullname="GameOverView" preserve="all" />
     <type fullname="GamePauseView" preserve="all" />
@@ -69,6 +70,7 @@
     <type fullname="EffectData" preserve="nothing" serialized="true" />
     <type fullname="UpgradeExpNeedEntry" preserve="nothing" serialized="true" />
     <type fullname="ViewConfigData/ViewMapping" preserve="nothing" serialized="true" />
+    <type fullname="ExplosionLogic" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="MPUIKit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="MPUIKIT.MPImage" preserve="all" />
