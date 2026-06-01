@@ -16,33 +16,37 @@
         background-color: #000;
         margin: 0;
         padding: 0;
-        overflow: hidden; /* 防止出現網頁捲軸 */
+        overflow: hidden; 
         display: flex;
         justify-content: center;
         align-items: center;
-        /* 使用 --vh 修正手機瀏覽器網址列導致 100vh 跑版的問題 */
+        /* 修正手機網址列高度 */
         height: calc(var(--vh, 1vh) * 100);
         width: 100vw;
       }
       
-      /* 容器與畫布填滿視窗 */
+      /* 核心修正：讓容器本身就鎖定 16:9 比例 */
       #unity-container {
         position: relative;
+        /* 寬度最大為 100%，高度最大為 100% 可視高度 */
         width: 100%;
         height: 100%;
+        max-width: calc(calc(var(--vh, 1vh) * 100) * 1.77777778); /* 100vh * 16 / 9 */
+        max-height: calc(100vw * 0.5625); /* 100vw * 9 / 16 */
+        
+        /* 鎖定 16:9 比例 */
+        aspect-ratio: 16 / 9; 
+        
         display: flex;
         justify-content: center;
         align-items: center;
-        overflow: hidden;
+        background: #000;
       }
 
-      /* 核心修正：利用 contain 確保不管橫向或直向，都不會超出螢幕被裁切 */
+      /* Canvas 填滿 16:9 的容器 */
       #unity-canvas {
           width: 100% !important;
           height: 100% !important; 
-          max-width: 100% !important;
-          max-height: 100% !important;
-          aspect-ratio: 16 / 9 !important; 
           object-fit: contain !important; 
           background: #000;
 
@@ -51,17 +55,13 @@
           image-rendering: pixelated;           /* Chrome / Edge / Opera */
       }
 
-      /* 行動端的 Canvas 繼承同樣的防裁切邏輯 */
+      /* 行動端與桌面端套用相同的邏輯 */
       #unity-container.unity-mobile #unity-canvas {
           width: 100% !important;
           height: 100% !important;
-          max-width: 100% !important;
-          max-height: 100% !important;
-          aspect-ratio: 16 / 9 !important;
-          object-fit: contain !important;
       }
 
-      /* 隱藏底部的工具欄 (包含按鈕與標題) */
+      /* 隱藏底部的工具欄 */
       #unity-footer { display: none !important; }
       
       /* 讓載入條與 Logo 居中 */
@@ -88,16 +88,14 @@
     </div>
 
     <script>
-      // --- 修正手機動態高度 (網址列與工具欄) ---
+      // 修正手機動態高度 (網址列與工具欄)
       function resetHeight() {
-        // 將實際可視高度除以 100，存入 CSS 變數 --vh
         let vh = window.innerHeight * 0.01;
         document.documentElement.style.setProperty('--vh', `${vh}px`);
       }
       window.addEventListener('resize', resetHeight);
       window.addEventListener('orientationchange', resetHeight);
-      resetHeight(); // 初始化執行
-      // ----------------------------------------
+      resetHeight();
 
       var canvas = document.querySelector("#unity-canvas");
 
@@ -152,15 +150,12 @@
         // 高 DPI (Retina) 模糊修復
         const dpr = window.devicePixelRatio || 1;
         
-        // 取得你在 Unity 設定的預設寬高
+        // 鎖定 Unity 內部渲染分辨率為 1280 * 720 的高清倍率
         const baseWidth = 1280;
         const baseHeight = 720;
         
-        // 讓 Canvas 的實體渲染像素乘上 DPR（例如 1280 * 2 = 2560）
         canvas.width = baseWidth * dpr;
         canvas.height = baseHeight * dpr;
-        
-        // 移除原本 JS 寫死的 style.width = "100%" / height = "auto"，全部交給 CSS 處理更穩定
 
         createUnityInstance(canvas, config, (progress) => {
           document.querySelector("#unity-progress-bar-full").style.width = 100 * progress + "%";
