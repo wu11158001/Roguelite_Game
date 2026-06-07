@@ -45,14 +45,15 @@
 
       /* Canvas 填滿 16:9 的容器 */
       #unity-canvas {
-          width: 100% !important;
-          height: 100% !important; 
-          object-fit: contain !important; 
-          background: #000;
+        width: 100% !important;
+        height: 100% !important; 
+        object-fit: contain !important; 
+        background: #000;
+        outline: none; /* 👈 補上這行，白色外框線就會永遠消失 */
 
-          image-rendering: -moz-crisp-edges;    /* Firefox */
-          image-rendering: -webkit-crisp-edges; /* Safari */
-          image-rendering: pixelated;           /* Chrome / Edge / Opera */
+        image-rendering: -moz-crisp-edges;
+        image-rendering: -webkit-crisp-edges;
+        image-rendering: pixelated;
       }
 
       /* 行動端與桌面端套用相同的邏輯 */
