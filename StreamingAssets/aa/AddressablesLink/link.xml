@@ -6,6 +6,7 @@
     <type fullname="AbilityUpgradeView" preserve="all" />
     <type fullname="AbilityView" preserve="all" />
     <type fullname="AllCharacterConfigData" preserve="all" />
+    <type fullname="AllDataConfig" preserve="all" />
     <type fullname="AllEffectPrefabData" preserve="all" />
     <type fullname="AllMapPropsConfigData" preserve="all" />
     <type fullname="AllSkillConfigData" preserve="all" />
