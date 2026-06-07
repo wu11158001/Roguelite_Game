@@ -26,13 +26,11 @@
     <type fullname="DamageTextView" preserve="all" />
     <type fullname="EffectRecycle" preserve="all" />
     <type fullname="EnemyConfigData" preserve="all" />
-    <type fullname="EnemyView" preserve="all" />
     <type fullname="ExpBall" preserve="all" />
     <type fullname="GameConfigData" preserve="all" />
     <type fullname="GameOverView" preserve="all" />
     <type fullname="GamePauseView" preserve="all" />
     <type fullname="GameView" preserve="all" />
-    <type fullname="GreenDG_View" preserve="all" />
     <type fullname="HpBarView" preserve="all" />
     <type fullname="JoystickView" preserve="all" />
     <type fullname="LevelConfigData" preserve="all" />
