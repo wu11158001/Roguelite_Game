@@ -45,15 +45,14 @@
 
       /* Canvas 填滿 16:9 的容器 */
       #unity-canvas {
-        width: 100% !important;
-        height: 100% !important; 
-        object-fit: contain !important; 
-        background: #000;
-        outline: none; /* 👈 補上這行，白色外框線就會永遠消失 */
+          width: 100% !important;
+          height: 100% !important; 
+          object-fit: contain !important; 
+          background: #000;
 
-        image-rendering: -moz-crisp-edges;
-        image-rendering: -webkit-crisp-edges;
-        image-rendering: pixelated;
+          image-rendering: -moz-crisp-edges;    /* Firefox */
+          image-rendering: -webkit-crisp-edges; /* Safari */
+          image-rendering: pixelated;           /* Chrome / Edge / Opera */
       }
 
       /* 行動端與桌面端套用相同的邏輯 */
@@ -100,16 +99,6 @@
 
       var canvas = document.querySelector("#unity-canvas");
 
-      // 當滑鼠移入或點擊時，同時強制聚焦 window 與 canvas 本身
-      function focusUnity() {
-        window.focus();
-        canvas.focus();
-      }
-
-      // 額外保險：當 Unity 實例載入完成時，主動奪取一次焦點
-      canvas.addEventListener("mouseenter", focusUnity);
-      canvas.addEventListener("click", focusUnity);
-      
       function unityShowBanner(msg, type) {
         var warningBanner = document.querySelector("#unity-warning");
         function updateBannerVisibility() {
@@ -173,10 +162,6 @@
         }).then((unityInstance) => {
           window.unityInstance = unityInstance;
           document.querySelector("#unity-loading-bar").style.display = "none";
-
-          // 聚焦
-          focusUnity();
-
         }).catch((message) => {
           alert(message);
         });
