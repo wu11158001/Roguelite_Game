@@ -31,6 +31,7 @@
     <type fullname="GameOverView" preserve="all" />
     <type fullname="GamePauseView" preserve="all" />
     <type fullname="GameView" preserve="all" />
+    <type fullname="GreenDG_View" preserve="all" />
     <type fullname="HpBarView" preserve="all" />
     <type fullname="JoystickView" preserve="all" />
     <type fullname="LevelConfigData" preserve="all" />
@@ -47,6 +48,7 @@
     <type fullname="MapProps_Kills" preserve="all" />
     <type fullname="MapProps_MoveLimit" preserve="all" />
     <type fullname="MapProps_PickAllExp" preserve="all" />
+    <type fullname="NormalEnemyView" preserve="all" />
     <type fullname="OtherLevelItemView" preserve="all" />
     <type fullname="ScrollViewToTarget" preserve="all" />
     <type fullname="SelectCharacterTogView" preserve="all" />
@@ -76,6 +78,7 @@
     <type fullname="UISwitcher.NullableValueChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UISwitcher.ValueChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="Base.BaseBodyData.BaseBodyData" preserve="nothing" serialized="true" />
+    <type fullname="Base.BaseGrowthCalculator.BaseGrowthCalculator" preserve="nothing" serialized="true" />
     <type fullname="Base.BehaviorMode.BaseBehaviorMode" preserve="nothing" serialized="true" />
     <type fullname="AbilityUpgradeItemData" preserve="nothing" serialized="true" />
     <type fullname="AudioData" preserve="nothing" serialized="true" />
