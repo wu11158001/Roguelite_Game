@@ -10,7 +10,6 @@
     <type fullname="AllEffectPrefabData" preserve="all" />
     <type fullname="AllMapPropsConfigData" preserve="all" />
     <type fullname="AllSkillConfigData" preserve="all" />
-    <type fullname="AnchorPoint" preserve="all" />
     <type fullname="AskPopupView" preserve="all" />
     <type fullname="AudioConfigData" preserve="all" />
     <type fullname="BackgroundMaskView" preserve="all" />
@@ -25,13 +24,11 @@
     <type fullname="Common_OwnSkillGroup" preserve="all" />
     <type fullname="DamageTextView" preserve="all" />
     <type fullname="EffectRecycle" preserve="all" />
-    <type fullname="EnemyConfigData" preserve="all" />
-    <type fullname="ExpBall" preserve="all" />
+    <type fullname="EnemySystemConfig" preserve="all" />
     <type fullname="GameConfigData" preserve="all" />
     <type fullname="GameOverView" preserve="all" />
     <type fullname="GamePauseView" preserve="all" />
     <type fullname="GameView" preserve="all" />
-    <type fullname="GreenDG_View" preserve="all" />
     <type fullname="HpBarView" preserve="all" />
     <type fullname="JoystickView" preserve="all" />
     <type fullname="LevelConfigData" preserve="all" />
@@ -43,12 +40,12 @@
     <type fullname="MapProps_BossBonus" preserve="all" />
     <type fullname="MapProps_BoxView" preserve="all" />
     <type fullname="MapProps_Coin" preserve="all" />
+    <type fullname="MapProps_ExpBall" preserve="all" />
     <type fullname="MapProps_HpRecover" preserve="all" />
     <type fullname="MapProps_Invincible" preserve="all" />
     <type fullname="MapProps_Kills" preserve="all" />
     <type fullname="MapProps_MoveLimit" preserve="all" />
     <type fullname="MapProps_PickAllExp" preserve="all" />
-    <type fullname="NormalEnemyView" preserve="all" />
     <type fullname="OtherLevelItemView" preserve="all" />
     <type fullname="ScrollViewToTarget" preserve="all" />
     <type fullname="SelectCharacterTogView" preserve="all" />
@@ -77,15 +74,13 @@
     <type fullname="AbilityConfigData" preserve="nothing" serialized="true" />
     <type fullname="UISwitcher.NullableValueChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UISwitcher.ValueChangedEvent" preserve="nothing" serialized="true" />
-    <type fullname="Base.BaseBodyData.BaseBodyData" preserve="nothing" serialized="true" />
-    <type fullname="Base.BaseGrowthCalculator.BaseGrowthCalculator" preserve="nothing" serialized="true" />
-    <type fullname="Base.BehaviorMode.BaseBehaviorMode" preserve="nothing" serialized="true" />
     <type fullname="AbilityUpgradeItemData" preserve="nothing" serialized="true" />
     <type fullname="AudioData" preserve="nothing" serialized="true" />
     <type fullname="EffectData" preserve="nothing" serialized="true" />
+    <type fullname="EnemyData" preserve="nothing" serialized="true" />
+    <type fullname="ExpBallData" preserve="nothing" serialized="true" />
     <type fullname="UpgradeExpNeedEntry" preserve="nothing" serialized="true" />
     <type fullname="ViewConfigData/ViewMapping" preserve="nothing" serialized="true" />
-    <type fullname="ExplosionLogic" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="MPUIKit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="MPUIKIT.MPImage" preserve="all" />
@@ -174,7 +169,6 @@
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.BoxCollider" preserve="all" />
     <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
-    <type fullname="UnityEngine.PhysicsMaterial" preserve="all" />
     <type fullname="UnityEngine.Rigidbody" preserve="all" />
     <type fullname="UnityEngine.SphereCollider" preserve="all" />
   </assembly>
