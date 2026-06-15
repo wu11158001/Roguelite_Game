@@ -30,6 +30,7 @@
     <type fullname="GamePauseView" preserve="all" />
     <type fullname="GameView" preserve="all" />
     <type fullname="HpBarView" preserve="all" />
+    <type fullname="ImageGradients" preserve="all" />
     <type fullname="JoystickView" preserve="all" />
     <type fullname="LevelConfigData" preserve="all" />
     <type fullname="LevelItemView" preserve="all" />
