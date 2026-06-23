@@ -57,11 +57,15 @@
     <type fullname="Skill_Around_AttackObjView" preserve="all" />
     <type fullname="Skill_AroundView" preserve="all" />
     <type fullname="Skill_AuraView" preserve="all" />
+    <type fullname="Skill_CraneView" preserve="all" />
     <type fullname="Skill_FrontHitView" preserve="all" />
     <type fullname="Skill_RangeSlowView" preserve="all" />
+    <type fullname="Skill_RobotView" preserve="all" />
     <type fullname="Skill_SingleHitView" preserve="all" />
     <type fullname="Skill_StraightProjectileView" preserve="all" />
     <type fullname="Skill_TrackingView" preserve="all" />
+    <type fullname="Skill_WaterAreaView" preserve="all" />
+    <type fullname="Skill_WaterSplashView" preserve="all" />
     <type fullname="SkillDescribeView" preserve="all" />
     <type fullname="SkillItemConfig" preserve="all" />
     <type fullname="TrackSkillItemsView" preserve="all" />
@@ -143,6 +147,7 @@
     <type fullname="UnityEngine.Camera" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.Light" preserve="all" />
+    <type fullname="UnityEngine.LineRenderer" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
     <type fullname="UnityEngine.Mesh" preserve="all" />
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
