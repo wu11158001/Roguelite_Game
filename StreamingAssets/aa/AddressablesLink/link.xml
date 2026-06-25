@@ -68,7 +68,10 @@
     <type fullname="Skill_WaterSplashView" preserve="all" />
     <type fullname="SkillDescribeView" preserve="all" />
     <type fullname="SkillItemConfig" preserve="all" />
+    <type fullname="TestDescribeView" preserve="all" />
+    <type fullname="TestSkillUpgradeView" preserve="all" />
     <type fullname="TrackSkillItemsView" preserve="all" />
+    <type fullname="UIHoverDetector" preserve="all" />
     <type fullname="UIRotate3DModel" preserve="all" />
     <type fullname="UISwitcher.UISwitcher" preserve="all" />
     <type fullname="UiViewConfigData" preserve="all" />
