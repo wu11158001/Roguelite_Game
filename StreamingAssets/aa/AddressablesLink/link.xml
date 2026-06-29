@@ -74,7 +74,7 @@
     <type fullname="TestDescribeView" preserve="all" />
     <type fullname="TestSkillUpgradeView" preserve="all" />
     <type fullname="TrackSkillItemsView" preserve="all" />
-    <type fullname="UIHoverDetector" preserve="all" />
+    <type fullname="UIEventHandler" preserve="all" />
     <type fullname="UIRotate3DModel" preserve="all" />
     <type fullname="UISwitcher.UISwitcher" preserve="all" />
     <type fullname="UiViewConfigData" preserve="all" />
